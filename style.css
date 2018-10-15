@@ -1,0 +1,46 @@
+body{
+    background-color: #f1f1f1;
+}
+.card{
+    padding: 8px!important;
+    border: none!important;
+}
+.card-body{
+    margin-top: 12px;
+    padding: 0px!important;
+}
+.card-title{
+    margin: 0px;
+}
+.card-text{
+    color: #737273;
+}
+.stars{
+    display: flex;
+    justify-content: space-between;
+}
+.free{
+    color: #85b87c;
+    font-size: 18px;
+    font-weight: bold;
+}
+.icons>i{
+    color: #737273;
+    font-size: 12px;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.container>.card{
+   margin: 6px;
+}
+h2{
+    margin: 62px 0 42px 0;
+    font-weight: lighter!important;
+}
+.card-title:hover,.card-text:hover{
+ text-decoration: underline;
+ cursor: pointer;
+}
